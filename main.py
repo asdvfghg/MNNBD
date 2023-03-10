@@ -80,7 +80,7 @@ def train_CNN(dataloader, epochs , n_filter, lambd, lr, fs):
                 batch_x = batch_x[0]
             y_predict, es_predict = model(batch_x)
 
-            lplq_loss = g_lplq(es_predict, 2, 3)
+            lplq_loss = g_lplq(es_predict, 1, 2)
 
             ## Multi-task
             loss = -lossFn(y_predict, n_filter // 2) + lambd * lplq_loss
