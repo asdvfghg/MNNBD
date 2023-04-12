@@ -3,7 +3,7 @@ This is the offical repository of the paper "Multi-task neural network blind dec
 
 In this work,
 
-1. We propose a novel multi-objective optimization function for the BD problem that combines two sparsity criteria: kurtosis and G−l1/l2 norm. Different from previous methods, our innovation lies in the use of these criteria in both time and frequency domains. We also derive the monotonicity of this function, which shows that the opposite monotonicity of the two criteria constrains each other during optimization, further improving the robustness of the BD method.
+1. We propose a novel multi-objective optimization function for the BD problem that combines two sparsity criteria: kurtosis and $G-l_1/l_2$ norm. Different from previous methods, our innovation lies in the use of these criteria in both time and frequency domains. We also derive the monotonicity of this function, which shows that the opposite monotonicity of the two criteria constrains each other during optimization, further improving the robustness of the BD method.
 2. We propose a multi-task one-dimensional convolutional neural network with two branches to achieve the joint optimization of two criteria. To our best knowledge, it is the first time a multi-task CNN has been used for BD problems. Experiments on simulated and real-world bearing fault signals show that our method outperforms other state-of-the-art methods.
 
 
@@ -26,7 +26,7 @@ If you find this repo useful for your research, please consider citing it:
 
 ## Multi-task Neural Network Blind Deconvolution(MNNBD)
 
-The proposed multi-task neural network blind deconvolution (MNNBD) combines the kurtosis and {$G-l_1/l_2$} norm as a hybrid optimization criterion. The kurtosis is used for time domain signal optimization, and the $G-l_1/l_2$ norm is used for the frequency domain. It complements the shortcomings of these two types of BD methods: i) The time domain-based method (MED [1]), which used the kurtosis as the criterion, may be affected by random pulses without fault characteristic frequency information; ii) The frequency domain-based method (Mini-blp-lplq [2]), which used the $G-l_p/l_q$ norm as the criterion, leads to the high sparsity of the frequency domain but loses the low energy fault-related frequency features. 
+The proposed multi-task neural network blind deconvolution (MNNBD) combines the kurtosis and $G-l_1/l_2$ norm as a hybrid optimization criterion. The kurtosis is used for time domain signal optimization, and the $G-l_1/l_2$ norm is used for the frequency domain. It complements the shortcomings of these two types of BD methods: i) The time domain-based method (MED [1]), which used the kurtosis as the criterion, may be affected by random pulses without fault characteristic frequency information; ii) The frequency domain-based method (Mini-blp-lplq [2]), which used the $G-l_p/l_q$ norm as the criterion, leads to the high sparsity of the frequency domain but loses the low energy fault-related frequency features. 
 
 ![overview](https://raw.githubusercontent.com/asdvfghg/image/master/QCNN/overview.png)
 
