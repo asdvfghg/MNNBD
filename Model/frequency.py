@@ -1,5 +1,4 @@
 import torch, math
-from .interpolation1d import _Interpolate
 from matplotlib import pyplot as plt
 
 
