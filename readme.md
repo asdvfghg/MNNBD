@@ -50,7 +50,7 @@ QCNN_for_bearing_diagnosis
 └─  data # bearing fault datasets 
      │   
      └─ 2HP # example dataset from CWRU
-	 └─ sig2.mat # simulated signal
+     └─ sig2.mat # simulated signal
 └─  Model
      │   frequency.py # calculate Hilbert transform and get envelope spectrum
      │   NET.py # CNN net
