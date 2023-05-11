@@ -1,5 +1,5 @@
 # Multi-task neural network blind deconvolution and its application to bearing fault feature extraction
-This is the offical repository of the paper "Multi-task neural network blind deconvolution and its application to bearing fault feature extraction". Here is the EA vision in Measturement Science and Technology [https://iopscience.iop.org/article/10.1088/1361-6501/accbdb](https://iopscience.iop.org/article/10.1088/1361-6501/accbdb).
+This is the offical repository of the paper "Multi-task neural network blind deconvolution and its application to bearing fault feature extraction" in Measturement Science and Technology [https://iopscience.iop.org/article/10.1088/1361-6501/accbdb](https://iopscience.iop.org/article/10.1088/1361-6501/accbdb).
 
 In this work,
 
