@@ -13,13 +13,20 @@ All experiments are conducted with Windows 10 on an Intel i9 10900k CPU at 3.70 
 ## Citing
 If you find this repo useful for your research, please consider citing it:
 ```
-@article{10.1088/1361-6501/accbdb,
-	author={Liao, Jingxiao and Dong, Hangcheng and Luo, Lei and Sun, Jinwei and Zhang, Shiping},
-	title={Multi-task neural network blind deconvolution and its application to bearing fault feature extraction},
-	journal={Measurement Science and Technology},
-	url={http://iopscience.iop.org/article/10.1088/1361-6501/accbdb},
-	year={2023},
+@article{Liao_2023,
+doi = {10.1088/1361-6501/accbdb},
+url = {https://dx.doi.org/10.1088/1361-6501/accbdb},
+year = {2023},
+month = {apr},
+publisher = {IOP Publishing},
+volume = {34},
+number = {7},
+pages = {075017},
+author = {Jing-Xiao Liao and Hang-Cheng Dong and Lei Luo and Jinwei Sun and Shiping Zhang},
+title = {Multi-task neural network blind deconvolution and its application to bearing fault feature extraction},
+journal = {Measurement Science and Technology},
 }
+
 ```
 
 
