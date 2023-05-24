@@ -71,7 +71,7 @@ We are inspired by these two GitHub repositories for our code. We are  grateful 
 ## Main Results
 Here we show the deconvolution result of the simulated signal, which has added -15dB noise. Our method presents an accurate feature extraction and fast speed.
 
-![enter description here](https://raw.githubusercontent.com/asdvfghg/image/master/QCNN/results.png)
+![enter description here](https://raw.githubusercontent.com/asdvfghg/image/master/QCNN/case1.png)
 
 ![enter description here](https://raw.githubusercontent.com/asdvfghg/image/master/QCNN/resultstable.png)
 
